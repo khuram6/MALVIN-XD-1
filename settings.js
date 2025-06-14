@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~tjtFCboZ#Y7pWcYGLaU6mvwpOhfxeS-_0l0ti9HharZ5vYFjtE9I",
+SESSION_ID: process.env.SESSION_ID || "malvin~Z31zkaAa#eVPlrn-CydU92RH7QH3iny4L3jvftmHBbhT_Nho9K1g",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -30,7 +30,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 
-        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Khuram Sultan 🙃*",
+        AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY Ashuu 🙃*",
 // set the auto reply massage on status reply  
 
 
@@ -80,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ALI-INXIDE",
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
