@@ -10,7 +10,7 @@ SESSION_ID: process.env.SESSION_ID || "malvin~Z31zkaAa#eVPlrn-CydU92RH7QH3iny4L3
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ALI-INXIDE-MD",
+BOT_NAME: process.env.BOT_NAME || "ASHU",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -24,7 +24,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -46,10 +46,10 @@ LINK_WHITELIST: "youtube.com,github.com",
       MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 
-     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/uosuez.jpg",
+     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/0j7i1c.jpg",
 // add custom menu and mention reply image url
 
-       ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/uosuez.jpg",
+       ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/0j7i1c.jpg",
 // add img for alive msg
 
         LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ✦ ғʀᴏᴍ ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/XdKing2/MALVIN-XD",
@@ -71,10 +71,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "ALI-INXIDE",
+OWNER_NAME: process.env.OWNER_NAME || "ASHU",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ALI ᴋɪɴɢ*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ASHU *",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -115,7 +115,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ALI-INXIDE",
     ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 
-      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
+      ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'inbox/ same if you want to resend deleted message in same chat 
 
       AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
